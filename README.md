@@ -8,7 +8,7 @@ This is a repository created by *Firstname*
 
 
 Run this command to execute the application:
-
+yes
 
 `python filename.py`
 
