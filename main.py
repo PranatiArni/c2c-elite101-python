@@ -23,5 +23,4 @@ def main():
     user_name = get_user_name()
     greet_user(user_name)
 
-if __name__ == "__main__":
-    main()
+
