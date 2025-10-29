@@ -14,7 +14,12 @@
 
 
 def get_user_name():
-    return input("Please enter your name: ")
+    name = input("Please enter your name: ")
+
+# Lesson 6 new add ons, food delivery chatbot
+    restaurant = input("What restaurant did you order food from?")
+    time = input("How long has it been since you ordered your food")
+
 
 def greet_user(name):
     print(f"Hello, {name}!")
@@ -22,5 +27,3 @@ def greet_user(name):
 def main():
     user_name = get_user_name()
     greet_user(user_name)
-
-
